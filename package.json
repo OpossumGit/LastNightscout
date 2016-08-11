@@ -1,0 +1,51 @@
+{
+    "author": "Opossum",
+    "dependencies": {
+        "pebble-clay": "^1.0.2"
+    },
+    "keywords": [],
+    "name": "lastnightscout",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "LastNightscout",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "SGV1",
+            "TIME1",
+            "SGV2",
+            "TIME2",
+            "SGV3",
+            "TIME3",
+            "URL",
+            "UNITS",
+            "READY"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/nightscout-ico.png",
+                    "menuIcon": true,
+                    "name": "ICON",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt"
+        ],
+        "uuid": "2a509d1e-7b80-4ae0-b45d-14bf389ea2db",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
